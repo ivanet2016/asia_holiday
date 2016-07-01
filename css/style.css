@@ -1,0 +1,69 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+	background-image: url("images/background.png");
+  background-repeat: repeat-x;
+	position: absolute;
+	width: 1280px;
+	height: 1310px;
+  min-width: 1280px;
+  min-height: 1310px;
+	z-index: 4;
+}
+
+.white-main {
+  background-image: url("images/white_main.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  left: 142px;
+  top: 38px;
+  width: 1018px;
+  height: 991px;
+  min-width: 1018px;
+  min-height: 1310px;
+  z-index: 5;
+}
+
+.header{
+
+}
+
+.logo {
+  background-image: url("images/logo.png");
+  position: relative;
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+.contakts {
+  position: relative;
+  margin-top: 50px;
+  padding-right: 50px;
+}
+
+.flag {
+  position: relative;
+  margin-top: 100px;
+  padding-right: 50px;
+}
+
+.photo {
+  background-image: url("images/photo.png");
+  position: relative;
+  z-index: 7
+
+}
+
+.blue_lines {
+  background-image: url("images/blue_lines.png");
+  position: relative;
+  z-index: 9
+
+}
+
+.panel {
+
+}

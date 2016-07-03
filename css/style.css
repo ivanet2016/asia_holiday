@@ -1,69 +1,219 @@
 ﻿* {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.background {
-	background-image: url("images/background.png");
-  background-repeat: repeat-x;
-	position: absolute;
-	width: 1280px;
-	height: 1310px;
-  min-width: 1280px;
-  min-height: 1310px;
-	z-index: 4;
+.clearfix:{
+	clear: both;
 }
+
+.conteiner {
+	width: 1280px;
+	height: 1024px;
+	position: relative;
+	background-image: url("../images/background.png");
+	background-repeat: repeat-x;
+	margin: 0 auto;
+    }
 
 .white-main {
-  background-image: url("images/white_main.png");
-  background-repeat: repeat-x;
-  position: absolute;
-  left: 142px;
-  top: 38px;
-  width: 1018px;
-  height: 991px;
-  min-width: 1018px;
-  min-height: 1310px;
-  z-index: 5;
+	width: 1000px;
+	height: 990px;
+	position: relative;
+	background-image: url("../images/white_main.png");
+	background-repeat: repeat-x;
+	margin: 0 auto;
 }
 
-.header{
-
+.blue-lines {
+	width: 1000px;
+	height: 1px;
+	position: absolute;
+	background-image: url("../images/blue_lines.png");
+	margin-top: 178px;
 }
 
 .logo {
-  background-image: url("images/logo.png");
-  position: relative;
-  margin-top: 50px;
-  padding-left: 50px;
+	width: 283px;
+	height: 164px;
+	margin: 0 0 0 35px;
+	position: absolute;
+	background-image: url("../images/logo.png");
 }
 
-.contakts {
-  position: relative;
-  margin-top: 50px;
-  padding-right: 50px;
+.travels {
+    font-size: 14px;
+    font-family: "Tahoma";
+    color: rgb( 18, 138, 167 );
+    text-align: right;
+    position: absolute;
+    left: 70px;
+    top: 100px;
 }
 
-.flag {
-  position: relative;
-  margin-top: 100px;
-  padding-right: 50px;
+.contacts {
+	font-size: 14px;
+    font-family: "Tahoma";
+    color: rgb( 18, 138, 167 );
+    float: right;
+    margin-top: 15px;
+    margin-right: 35px;
+}
+
+.contries-nav {
+	position: absolute;
+	right: 10px;
+    top: 150px;
+    margin-left: 500px;
+ }
+
+.contries-nav li a{
+	font-size: 14px;
+	color: rgb( 18, 138, 167 );
+	padding-right: 5px;
+	display: inline-block;
+	margin-left: -4px;
+}
+
+#flag {
+	position: absolute;
+	float: right;
+	margin-top: 100px;
+	margin-left: 650px;
+}
+
+.maldives {
+	width: 42px;
+	height: 42px;
+	float:left;
+	margin-right: 10px;
+	background-image: url("../images/maldives.png");
+}
+
+.srilanka {
+	width: 42px;
+	height: 42px;
+	float:left;
+	margin-right: 10px;
+	background-image: url("../images/srilanka.png");
+}
+
+.butan {
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin-right: 10px;
+    background-image: url("../images/bhutan.png");
+}
+
+.tibet {
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin-right: 10px;
+    background-image: url("../images/tibet.png");
+}
+
+.nepal {
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin-right: 10px;
+	background-image: url("../images/nepal.png");
+}
+
+.india {
+	width: 42px;
+	height: 42px;
+	float: left;
+	margin-right: 10px;
+	background-image: url("../images/india.png");
+}
+
+.contries-nav li {
+    list-style: none; 
+    display: inline-block;
+    padding-right: 5px;
 }
 
 .photo {
-  background-image: url("images/photo.png");
-  position: relative;
-  z-index: 7
-
+	width: 1000px;
+	height: 237px;
+	background-image: url("../images/photo.png");
+	position: absolute;
+	margin: 179px auto 0;
 }
 
-.blue_lines {
-  background-image: url("images/blue_lines.png");
-  position: relative;
-  z-index: 9
-
+.menu {
+	width: 1000px;
+	height: 38px;
+	position: absolute;
+	background-image: url("../images/panel.png");
+	background-repeat: repeat-x;
+	margin: 412px auto;
 }
 
-.panel {
+.menu li{
+	list-style: none; 
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
 
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px 15px;
+}
+
+.block {
+	width: 100%;
+	position: absolute;
+	font-size: 0;
+}
+
+.info {
+    width: 200px;
+    min-height: 546px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 442px;
+    background-color: #edeef0;
+    border-right: 1px solid #0c0c0c;
+}
+
+.content {
+	width: 595px;
+    min-height: 546px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 442px;
+    margin-left: -5px;
+}
+
+.news {
+    width: 200px;
+    min-height: 546px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 442px;
+    background-color: #edeef0;
+    margin-left: -5px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 22px;
+	font-family: "Tahoma";
+    color: rgb( 66, 76, 67);
+}
+
+p {
+	text-align: center;
+    font-size: 14px;
+    font-family: "Tahoma";
+    color: rgb( 66, 76, 67);
+    line-height: 1.8;
 }

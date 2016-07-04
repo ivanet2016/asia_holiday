@@ -10,18 +10,18 @@
 .conteiner {
 	width: 1280px;
 	height: 1024px;
-	position: relative;
 	background-image: url("../images/background.png");
 	background-repeat: repeat-x;
+	position: relative;
 	margin: 0 auto;
     }
 
 .white-main {
 	width: 1000px;
 	height: 990px;
-	position: relative;
 	background-image: url("../images/white_main.png");
 	background-repeat: repeat-x;
+	position: relative;
 	margin: 0 auto;
 }
 
@@ -29,15 +29,15 @@
 	width: 1000px;
 	height: 1px;
 	position: absolute;
-	background-image: url("../images/blue_lines.png");
 	margin-top: 178px;
+	background-image: url("../images/blue_lines.png");
 }
 
 .logo {
 	width: 283px;
 	height: 164px;
-	margin: 0 0 0 35px;
-	position: absolute;
+	float: left;
+	margin: 0 30px;
 	background-image: url("../images/logo.png");
 }
 
@@ -45,10 +45,9 @@
     font-size: 14px;
     font-family: "Tahoma";
     color: rgb( 18, 138, 167 );
+    float: left;
     text-align: right;
-    position: absolute;
-    left: 70px;
-    top: 100px;
+    margin: 100px 70px;
 }
 
 .contacts {
@@ -60,33 +59,34 @@
     margin-right: 35px;
 }
 
-.contries-nav {
+.coutries-info {
+	float: right;
+	margin-top: 100px;
 	position: absolute;
-	right: 10px;
-    top: 150px;
-    margin-left: 500px;
+	margin-left: 620px;
+}
+
+.contries-nav {
+	float: right;
  }
 
 .contries-nav li a{
 	font-size: 14px;
 	color: rgb( 18, 138, 167 );
-	padding-right: 5px;
+	padding-right: 2px;
 	display: inline-block;
 	margin-left: -4px;
 }
 
 #flag {
-	position: absolute;
 	float: right;
-	margin-top: 100px;
-	margin-left: 650px;
 }
 
 .maldives {
 	width: 42px;
 	height: 42px;
 	float:left;
-	margin-right: 10px;
+	margin-right: 15px;
 	background-image: url("../images/maldives.png");
 }
 
@@ -151,6 +151,7 @@
 	background-repeat: repeat-x;
 	background-image: url("../images/panel.png");
 	margin: 412px auto;
+	z-index: 10;
 }
 
 .menu ul {
@@ -190,41 +191,31 @@
 .block {
 	width: 100%;
 	position: absolute;
-	font-size: 0;
+	margin-top: 450px;
 }
 
 .info {
-    width: 200px;
-    min-height: 546px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 442px;
-    background-color: #edeef0;
-    border-right: 1px solid #0c0c0c;
+    width: 19%;
+    float: left;
+    min-height: 540px;
+    border-right: 1px solid #c7cacf;
 }
 
 .content {
-	width: 595px;
-    min-height: 546px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 442px;
-    margin-left: -5px;
+	width: 60%;
+	min-height: 540px;
+	float: left;
 }
 
 .news {
-    width: 200px;
-    min-height: 546px;
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 442px;
-    background-color: #edeef0;
-    margin-left: -5px;
+    width: 20%px;
+    float: left;
+    min-height: 540px;
 }
 
 h1 {
 	text-align: center;
-	font-size: 22px;
+	font-size: 18px;
 	font-family: "Tahoma";
     color: rgb( 66, 76, 67);
 }
@@ -235,4 +226,12 @@ p {
     font-family: "Tahoma";
     color: rgb( 66, 76, 67);
     line-height: 1.8;
+}
+
+.copy {
+	font-size: 12px;
+    font-family: "Tahoma";
+	color: white;
+	text-align: center;
+	padding-top: 10px;
 }

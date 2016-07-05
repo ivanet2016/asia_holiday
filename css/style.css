@@ -182,12 +182,31 @@
 	border-top: 1px solid black;
 }
 
-.trangles {
-	position: absolute;
-	margin: 420px;
-	float: left;
-	margin-left: 280px;
-    z-index: 20;
+.trangles1 {
+    top: 15px;
+    left: 280px;
+    position: absolute;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 7px solid #fff;
+}
+
+.trangles2 {
+    top: 15px;
+    left: 395px;
+    position: absolute;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 7px solid #fff;
+}
+
+.trangles3 {
+    top: 15px;
+    left: 550px;
+    position: absolute;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 7px solid #fff;
 }
 
 .block {
